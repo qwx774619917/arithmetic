@@ -53,8 +53,6 @@ public class QuestionAcitvity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.question_print);
-
-
         llfinish = (LinearLayout) findViewById(R.id.fin);
         Bundle bundle = getIntent().getExtras();
         Choose = bundle.getString("Choose");
